@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 
 function App() {
-  const [data, setData] = useState('');
+  const [data, setData] = useState('hang on.. the server is warming up.');
 
   useEffect(() => {
     (async function () {
